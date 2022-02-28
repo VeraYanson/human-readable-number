@@ -32,7 +32,36 @@ module.exports = function toReadable (number) {
     if(number === 10){
         return "ten"
     }
-
+    if(number === 11){
+        return "eleven"
+    }
+    if(number === 12){
+        return "twelve"
+    }
+    if(number === 13){
+        return "thirteen"
+    }
+    if(number === 14){
+        return "forteen"
+    }
+    if(number === 15){
+        return "fifteen"
+    }
+    if(number === 16){
+        return "sixteen"
+    }
+    if(number === 17){
+        return "seventeen"
+    }
+    if(number === 18){
+        return "eighteen"
+    }
+    if(number === 19){
+        return "nineteen"
+    }
+    if(number === 20){
+        return "twenty"
+    }
     if (number === 998){
         return "nine hundred ninety eight"
     }
